@@ -1,0 +1,32 @@
+# To check python version
+python --version
+
+# To install virtual env
+pip3 install virtualenv
+
+# To give name to your virtual env
+virtualenv env
+
+# To start your virtual env in linux
+source env/bin/activate
+# To start your virtual env in windows
+env\scripts\activate
+
+# once inside virtualenv, install flask and sql-alchemy
+pip3 install flask flask-sqlalchemy
+
+# To create a new file in the project folder
+type nul > app.py
+
+# To delete an existing file from the project folder
+del app.py
+
+# To run your flask project in windows
+set FLASK_APP = app.py
+flask run 
+
+# To run your flask project in linux
+export FLASK_APP = app.py
+flask run
+
+
