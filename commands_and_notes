@@ -54,9 +54,15 @@ pip install gunicorn
 # Freeze your all your requirements in requirements.txt
 pip freeze > requirements.txt
 
+# create a Procfile without extension( necessary for heroku deployment on browser )
+type nul > Procfile
+
 # create your app on heroku (before doing final commit!)
 heroku create simple-todo-application 
 
+# Last git commands after doing final commit
+git remote -v
+git push heroku master
 
 
 
