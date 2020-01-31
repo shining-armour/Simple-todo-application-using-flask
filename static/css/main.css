@@ -1,6 +1,18 @@
 body{
  margin:0;
  padding: 0;
- background-color: #ffe1ff;
- font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+}
+
+th{
+ background-color: lightseagreen;
+}
+
+form{
+ display: inline-block;
+}
+
+.butn{
+ background-color: lightseagreen;
+ font-weight: bold;
 }

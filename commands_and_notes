@@ -12,7 +12,7 @@ source env/bin/activate
 # To start your virtual env in windows
 env\scripts\activate
 
-# once inside virtualenv, install flask and sql-alchemy
+# once inside virtualenv, install flask and flask-sqlalchemy(for db)
 pip3 install flask flask-sqlalchemy
 
 # To create a new file in the project folder
@@ -29,4 +29,13 @@ flask run
 export FLASK_APP = app.py
 flask run
 
+# To create a database file(test.db)
+1. make sure flask-sqlalchemy is installed
+2. Inside python shell, type from app import db, then
+3. db.create_all()
+4. You will get a test.db file in your project directory
 
+NOTES :
+Jinja template comprises of :
+Variables {{ printable variable here }}
+Tags {% tags for loops %}
