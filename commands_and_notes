@@ -54,8 +54,9 @@ pip install gunicorn
 # Freeze your all your requirements in requirements.txt
 pip freeze > requirements.txt
 
-# create your app on heroku
-heroku create Simple-todo-application
+# create your app on heroku (before doing final commit!)
+heroku create simple-todo-application 
+
 
 
 
