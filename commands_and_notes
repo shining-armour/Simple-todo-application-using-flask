@@ -31,11 +31,29 @@ flask run
 
 # To create a database file(test.db)
 1. make sure flask-sqlalchemy is installed
-2. Inside python shell, type from app import db, then
+2. Inside python shell, type 'from app import db', then
 3. db.create_all()
 4. You will get a test.db file in your project directory
 
+# Adde functionalities like delete and update
 NOTES :
 Jinja template comprises of :
 Variables {{ printable variable here }}
 Tags {% tags for loops %}
+
+# Downloaded heroku
+# Download heroku CLI ( To deploy project to heroku using Command line interface)
+# Imp note : For heroku to function, git must also be installed.
+
+# To login to heroku login from CMD
+heroku login
+
+# To install gunicorn (a dependency)
+pip install gunicorn
+
+# Freeze your all your requirements in requirements.txt
+pip freeze > requirements.txt
+
+
+
+
