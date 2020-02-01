@@ -1,1 +1,1 @@
-web: gunicorn app: Simplest-todo-application-using-flask
+web: gunicorn app:app
